@@ -1,16 +1,13 @@
 package com.cameo;
-
-import java.util.ArrayList;
 import java.util.Scanner;
-
 /**
  * Created by Cameo on 11/1/2015.
  */
 public class Dog {
 
-    public String dogName;
-    public String ownerAddress;
-    public int[] walkingSchedule;
+    private String dogName;
+    private String ownerAddress;
+    protected int[] walkingSchedule;
 
     //Constructor
     public Dog(String dogName, String address) {
